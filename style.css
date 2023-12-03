@@ -18,19 +18,11 @@ header {
 
 .page-1 {
     display: flex;
-    background-image: linear-gradient(180deg, orange, gray);
     height: 100vh;
+    background-image: url(https://media.designcafe.com/wp-content/uploads/2021/12/27144355/design-cafe-modular-furniture-benefits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.page-1 img {
-    width: 25vw;
-    height: 60vh;
-    border-radius: 20px;
-    margin-top: 100px;
-    margin-left: 300px;
-    box-shadow: 10px 10px 20px black;
-}
-
 .content-1 {
     background-color: rgb(159, 159, 159);
     width: 10vw;
@@ -64,12 +56,13 @@ header {
     height: 30vh;
     margin-left: 200px;
     margin-top: 100px;
+    color: white;
 }
 
 .content-page-1 h1 {
-    font-size: 40px;
+    font-size: 60px;
     border-bottom: 1px solid;
-    width: 260px;
+    width: 25vw;
 }
 
 .content-page-1 h3 {
@@ -491,8 +484,18 @@ footer{
         box-shadow: 10px 10px 20px black;
     }
     .content-page-1 {
-        margin-left: 0;
+        margin-left: 10px;
+
     }
+    .content-page-1 h1 {
+        font-size: 30px;
+        width: 25vw;
+    }
+    
+    .content-page-1 h3 {
+        font-size: 20px;
+    }
+    
     #page-2{
         height: 100vh;
     }
