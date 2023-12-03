@@ -302,16 +302,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
-.card-content-6 {
-    width: 15vw;
-    height: 10vh;
-    background-color: rgb(150, 150, 150);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .card-4 div h2 {
     color: rgb(58, 58, 58);
 
@@ -353,7 +343,7 @@ header {
 .card-5 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .card-2-content {
@@ -467,4 +457,197 @@ footer{
 }
 .info h3:hover{
     color: orange;
+}
+@media ( max-width: 600px){
+    header{
+       height: 20vh;
+    }
+    .content-1{
+        background-color: rgb(159, 159, 159);
+        width: 15vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-2{
+        flex-wrap: wrap;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .page-1 {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    
+    .page-1 img {
+        width: 70vw;
+        height: 60vh;
+        border-radius: 20px;
+        margin-top: 400px;
+        margin-left: -35px;
+        box-shadow: 10px 10px 20px black;
+    }
+    .content-page-1 {
+        margin-left: 0;
+    }
+    #page-2{
+        height: 100vh;
+    }
+    .card {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card-1 {
+        width: 40vw;
+        height: 30vh;
+        background-color: black;
+        margin-right: 20px;
+        text-align: center;
+        
+    }
+    .card-2 {
+        width: 70vw;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+    .center-page-2 {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-3 {
+        height: 100%;
+        margin-top: 180px;
+        margin-left: -100px;
+        flex-direction: column;
+    }
+    #page-2{
+        height: 205vh;
+    }
+    #page-3 div {
+        margin-left: 90px;
+        width: 60vw;
+        height: 50vh;
+    }
+    .content-page-3 {
+        width: 60vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .div-1 {
+        width: 20vw;
+        height: 35vh;
+        text-align: center;
+        margin-left: -50px;
+    }
+    
+    .div-1 h1 {
+        padding-top: 50px;
+        font-size: 50px;
+        color: orange;
+    }
+    
+    .div-1 p {
+        color: white;
+    }
+    
+    .div-2 {
+        width: 60vw;
+        border-left: 0;
+        margin-top: 60px;
+    }
+    .card-4 {
+        width: 80vw;
+        height: 20vh;
+        margin-left: 40px;
+        margin-top: -30px;
+    }
+    
+    .card-content-4 {
+        width: 24vw;
+    }
+    
+    .card-content-5 {
+        width: 25vw;
+    }
+    .card-content-7 {
+        height: 25vh;
+    }
+    .card-content h1 {
+       width: 15vw;
+       height: 5vh;
+       margin-left: 10px;
+    }
+    .card-5 {
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+    .card-3-content {
+        background-color: orange;
+        width: 20vw;
+        height: 15vh;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .card-3-content img {
+        width: 15vw;
+        height: 10vh;
+    }
+    .card-2-content {
+        width: 30vw;
+        height: 10vh;
+    }
+    #page-6{
+        width: 100%;
+        height: 60vh;
+        background-image: url(https://en.idei.club/uploads/posts/2023-06/1687310178_en-idei-club-p-orange-technology-background-dizain-pinter-28.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .div-3 img{
+        width: 50vw;
+        height: 40vh;
+        margin-right: 100px;
+        border-radius: 20px;
+        margin-top: -20px;
+        margin-left: -80px;
+    }
+    .div-4 {
+        width: 40vw;
+        height: 15vh;
+        margin-top: 45px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -70px;
+    }
+    .div-4 h2{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        margin-left: -40px;
+    }
+    .div-4 h1{
+        color: rgb(65, 65, 65);
+        font-size: 30px;
+        width: 50vw;
+    }
 }
