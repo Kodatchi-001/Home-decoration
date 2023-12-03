@@ -487,7 +487,7 @@ footer{
         height: 60vh;
         border-radius: 20px;
         margin-top: 400px;
-        margin-left: -35px;
+        margin-left: -30px;
         box-shadow: 10px 10px 20px black;
     }
     .content-page-1 {
@@ -515,7 +515,7 @@ footer{
     .card-2 {
         width: 80vw;
         height: 35vh;
-        margin-left: -55px;
+        margin-left: -50px;
         margin-top: 20px;
     }
     .center-page-2 {
@@ -531,7 +531,11 @@ footer{
         margin-left: -100px;
         flex-direction: column;
     }
-    
+    .card-content-3 img {
+        width: 150px;
+        height: 20vh;
+        border-radius: 20px;
+    }
     #page-2{
         height: 205vh;
     }
@@ -551,12 +555,12 @@ footer{
         width: 20vw;
         height: 35vh;
         text-align: center;
-        margin-left: -70px;
+        margin-left: -60px;
     }
     
     .div-1 h1 {
         padding-top: 50px;
-        font-size: 50px;
+        font-size: 45px;
         color: orange;
     }
     
