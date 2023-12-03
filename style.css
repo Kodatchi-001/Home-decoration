@@ -514,6 +514,7 @@ footer{
     }
     .card-2 {
         width: 80vw;
+        height: 35vh;
         margin-left: -55px;
         margin-top: 20px;
     }
@@ -526,17 +527,18 @@ footer{
     
     .card-3 {
         height: 100%;
-        margin-top: 180px;
+        margin-top: 200px;
         margin-left: -100px;
         flex-direction: column;
     }
+    
     #page-2{
         height: 205vh;
     }
     #page-3 div {
         margin-left: 90px;
         width: 60vw;
-        height: 50vh;
+        height: 60vh;
     }
     .content-page-3 {
         width: 60vw;
@@ -563,7 +565,7 @@ footer{
     }
     
     .div-2 {
-        width: 60vw;
+        width: 100vw;
         border-left: 0;
         margin-top: 60px;
     }
@@ -573,7 +575,10 @@ footer{
         margin-left: 40px;
         margin-top: -30px;
     }
-    
+    .card-4{
+        font-size: 12px;
+        text-align: center;
+    }
     .card-content-4 {
         width: 24vw;
     }
@@ -587,6 +592,7 @@ footer{
     .card-content h1 {
        width: 15vw;
        height: 5vh;
+       font-size: 17px;
        margin-left: 10px;
     }
     .card-5 {
