@@ -569,6 +569,13 @@ footer{
         border-left: 0;
         margin-top: 60px;
     }
+    .div-2 p {
+        font-size: 20px;
+        font-weight: bolder;
+        padding-left: 60px;
+        width: 55vw;
+    
+    }
     .card-4 {
         width: 80vw;
         height: 20vh;
@@ -655,5 +662,13 @@ footer{
         color: rgb(65, 65, 65);
         font-size: 30px;
         width: 50vw;
+    }
+    footer{
+        margin-top: 20px;
+    }
+    .info-position{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
     }
 }
