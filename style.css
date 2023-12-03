@@ -497,7 +497,7 @@ footer{
         height: 100vh;
     }
     .card {
-        width: 50vw;
+        width: 60vw;
         height: 30vh;
         margin-top: 60px;
         display: flex;
@@ -505,7 +505,7 @@ footer{
     }
     
     .card-1 {
-        width: 40vw;
+        width: 60vw;
         height: 30vh;
         background-color: black;
         margin-right: 20px;
@@ -513,7 +513,7 @@ footer{
         
     }
     .card-2 {
-        width: 70vw;
+        width: 80vw;
         margin-left: -55px;
         margin-top: 20px;
     }
