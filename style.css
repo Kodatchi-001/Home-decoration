@@ -451,7 +451,7 @@ footer{
 .info h3:hover{
     color: orange;
 }
-@media ( max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px){
     header{
        height: 20vh;
     }
