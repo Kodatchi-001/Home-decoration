@@ -206,7 +206,6 @@ header {
 .card-content-3 img {
     width: 150px;
     height: 20vh;
-
     border-radius: 10px;
 }
 
@@ -373,7 +372,7 @@ header {
 
 .card-7-content {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.632);
+    background-color: rgba(0, 0, 0, 0.447);
     border-radius: 0px 0px 20px 20px;
     transition: 0.8s ease-in;
     height: 5vh;
@@ -472,9 +471,15 @@ header {
 .card-7-content a {
     text-decoration: none;
     text-align: center;
-    color: rgb(227, 163, 163);
+    color: rgb(255, 255, 255);
 }
-
+.card-7-content  h2 {
+    background-color: rgb(11, 113, 0);
+    border-radius: 5px;
+    padding: 2px;
+    width: 4vw;
+    text-align: center;
+}
 .card-content-7:hover {
     .card-7-content {
         margin-top: 20vh;
@@ -662,13 +667,13 @@ footer {
 
 @media (max-width: 600px) {
     header {
-        height: 20vh;
+        height: 100%;
     }
 
     .content-1 {
         background-color: rgb(159, 159, 159);
         width: 15vw;
-        height: 20vh;
+        height: 12vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -676,48 +681,55 @@ footer {
 
     .content-2 {
         flex-wrap: wrap;
-        width: 100%;
-        height: 20vh;
+        width: 70%;
+        height:100%;
         display: flex;
         justify-content: space-around;
+        margin-left: 5vw;
     }
 
     .page-1 {
         flex-wrap: wrap;
-        height: 100%;
-    }
-
-    .page-1 img {
-        width: 70vw;
-        height: 60vh;
-        border-radius: 20px;
-        margin-top: 400px;
-        margin-left: -30px;
-        box-shadow: 10px 10px 20px black;
+        height: 50vh;
     }
 
     .content-page-1 {
-        margin-left: 10px;
+        margin-left: 10vw;
+        margin-top: 8vh;
 
     }
-
-    .content-page-1 h1 {
+    .content-page-1 h2 {
         font-size: 30px;
-        width: 25vw;
+        width: 30vw;
     }
 
     .content-page-1 h3 {
         font-size: 20px;
     }
+    .content-page-1 h1 {
+        font-size: 30px;
+        width: 30vw;
+    }
+
+    .content-page-1 h3 {
+        font-size: 25px;
+    }
+    .content-page-1 h4 {
+        border-radius: 20px;
+        width: 20vw;
+        height: 6vh;
+        margin-top: 10px;
+        font-size: 4vw;
+    }
 
     #page-2 {
-        height: 100vh;
+        height: 100%;
     }
 
     .card {
         width: 60vw;
         height: 30vh;
-        margin-top: 60px;
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -728,121 +740,450 @@ footer {
         background-color: black;
         margin-right: 20px;
         text-align: center;
+        border-radius: 20px;
 
     }
-
+    .card-1-2 {
+        width: 20vw;
+        height: 100%;
+        background-color: orange;
+        margin-left: 18vw;
+    }
+    
     .card-2 {
         width: 80vw;
         height: 35vh;
-        margin-left: -50px;
-        margin-top: 20px;
+        margin-left: -11vw;
+        margin-top: -25vh;
+        border-radius: 20px;
     }
-
     .center-page-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 25vh;
+        margin-left: -10vw;
+    }
+    
+    .card-3 {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+        gap: 5px;
+        flex-direction: column;
+        margin-left: -10vw;
+       
+    }
+    
+    .card-content-3 {
+        width: 10vw;
+        height: 20vh;
+        margin: 5px;
+        transition: 0.5s ease-in;
+        filter: grayscale(5);
+    }
+    
+    .card-content-3 img {
+        width: 150px;
+        height: 20vh;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-content-3:hover {
+        padding-left: 0;
+        padding-right: 0;
+        transform: scale(1.1);
+        filter: grayscale(0);
+    }    
+    #page-3 {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://www.houseofoak.co.uk/media/mageplaza/blog/post/o/f/office_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .page-3-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+        height: 100%;
+        border: 1px solid rgb(59, 59, 59);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        text-align: center;
+    }
+    #page-4 {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://en.idei.club/uploads/posts/2023-06/1687310178_en-idei-club-p-orange-technology-background-dizain-pinter-28.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .content-page-3 {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .div-1 {
         width: 100%;
         height: 20vh;
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin-top: -7vh;
+      
     }
-
-    .card-3 {
-        height: 100%;
-        margin-top: 200px;
-        margin-left: -100px;
-        flex-direction: column;
-    }
-
-    .card-content-3 img {
-        width: 150px;
-        height: 20vh;
-        border-radius: 20px;
-    }
-
-    #page-2 {
-        height: 205vh;
-    }
-
-    #page-3 div {
-        margin-left: 90px;
-        width: 60vw;
-        height: 60vh;
-    }
-
-    .content-page-3 {
-        width: 60vw;
-        height: 30vh;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .div-1 {
-        width: 20vw;
-        height: 35vh;
-        text-align: center;
-        margin-left: -60px;
-    }
-
+    
     .div-1 h1 {
-        padding-top: 50px;
-        font-size: 45px;
-        color: orange;
+        width: 100%;
+        font-size: 40px;
+        color: black;
+        text-align: center;
+        text-decoration: underline orange;
     }
-
-    .div-1 p {
-        color: white;
-    }
-
+    
     .div-2 {
-        width: 100vw;
-        border-left: 0;
-        margin-top: 60px;
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid;
+        margin-top: -5vh;
     }
-
+    
     .div-2 p {
+        width: 100%;
         font-size: 20px;
         font-weight: bolder;
-        padding-left: 60px;
-        width: 55vw;
-
+        padding-left: 30px;
+        color: rgb(69, 69, 69);
     }
-
     .card-4 {
-        width: 80vw;
+        width: 100%;
         height: 20vh;
-        margin-left: 40px;
-        margin-top: -30px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
     }
-
-    .card-4 {
-        font-size: 12px;
+    
+    .card-content-4 {
+        width: 20vw;
+        height: 6vh;
+        background-color: orange;
+        border-radius: 20px;
+        font-weight: 900;
+        font-size: 10px;
         text-align: center;
     }
-
-    .card-content-4 {
-        width: 24vw;
-    }
-
+    
     .card-content-5 {
-        width: 25vw;
+        width: 20vw;
+        height: 6vh;
+        background-color: rgb(150, 150, 150);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 11px;
+        text-align: center;
     }
-
-    .card-content-7 {
-        height: 25vh;
+    
+    .card-content-6 {
+        width: 20vw;
+        height: 6vh;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 11px;
+        text-align: center;
     }
-
-    .card-content h1 {
-        width: 15vw;
+    #page-5 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(70, 70, 70);
+    }
+    
+    .content-page-4 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .card-content {
+        width: 40vw;
+        height: 40vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    
+    .card-7-content {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.447);
+        border-radius: 0px 0px 20px 20px;
+        transition: 0.8s ease-in;
         height: 5vh;
-        font-size: 17px;
-        margin-left: 10px;
+        margin-top: 35vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
     }
-
+    .card-content-7 {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/e/3/2/e32535bed91689f417c58d33e7cdd1c0.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-8{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/e/4/a/e4a910fa933e88f108cc55d628e5e0ec.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-9{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/2/9/2/292d3b2f08e6800a3f6a69af4b81b941.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-10{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/4/b/8/4b8cda59e74ea49574bf6e46ea4d659b.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-11{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/5/c/2/5c2d6d331280b5be67e67f074ff3ee9b.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content-12{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.laredoute.com/products/9/c/6/9c68cf72ee9654dfb3f28f89931ecbca.jpg?width=1200&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-7-content h1 {
+        padding-top: 5px;
+    }
+    
+    .card-7-content p {
+        opacity: 0;
+        transition: 1s ease-in;
+        color: white;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    
+    .card-7-content a {
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    .card-7-content  h2 {
+        background-color: rgb(11, 113, 0);
+        border-radius: 0;
+        padding: 0;
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .card-content-7:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
+    .card-content-8:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
+    .card-content-9:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
+    .card-content-10:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
+    .card-content-11:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
+    .card-content-12:hover {
+        .card-7-content {
+            margin-top: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    
+        .card-7-content p {
+            opacity: 1;
+        }
+    }
     .card-5 {
         display: flex;
         justify-content: center;
-        margin-top: -10px;
+        margin-top: 60px;
     }
-
+    
+    .card-2-content {
+        background-color: black;
+        width: 20vw;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-3-content {
+        background-color: orange;
+        width: 7vw;
+        height: 15vh;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .card-3-content img {
+        width: 5vw;
+        height: 8vh;
+        border-radius: 10px;
+    }
+    .card-5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .card-2-content {
+        background-color: black;
+        width: 40vw;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .card-3-content {
         background-color: orange;
         width: 20vw;
@@ -853,66 +1194,59 @@ footer {
         align-items: center;
         border-radius: 5px;
     }
-
+    
     .card-3-content img {
         width: 15vw;
-        height: 10vh;
+        height: 8vh;
+        border-radius: 10px;
     }
-
-    .card-2-content {
-        width: 30vw;
-        height: 10vh;
-    }
-
     #page-6 {
         width: 100%;
-        height: 60vh;
+        height: 40vh;
         background-image: url(https://en.idei.club/uploads/posts/2023-06/1687310178_en-idei-club-p-orange-technology-background-dizain-pinter-28.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        flex-wrap: wrap;
     }
-
-    .div-3 img {
-        width: 50vw;
-        height: 40vh;
-        margin-right: 100px;
-        border-radius: 20px;
-        margin-top: -20px;
-        margin-left: -80px;
-    }
-
-    .div-4 {
-        width: 40vw;
-        height: 15vh;
-        margin-top: 45px;
-        text-align: center;
-        padding-top: 20px;
-        margin-left: -70px;
-    }
-
-    .div-4 h2 {
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-        margin-left: -40px;
-    }
-
-    .div-4 h1 {
-        color: rgb(65, 65, 65);
-        font-size: 30px;
-        width: 50vw;
-    }
-
-    footer {
-        margin-top: 20px;
-    }
-
-    .info-position {
+    .content-page-3{
+        width: 100%;
         display: flex;
         justify-content: center;
-        justify-content: space-around;
+      
     }
+    
+    .div-3 img {
+        opacity: 0;
+    }
+    
+    .div-4 {
+        width: 100%;
+        height: 15vh;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -40vh;
+    }
+    
+    .div-4 h2 {
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+    }
+    
+    .div-4 h1 {
+        color: rgb(65, 65, 65);
+        font-size: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    
+    
 }
