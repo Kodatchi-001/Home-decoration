@@ -373,7 +373,7 @@ header {
 
 .card-7-content {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.326);
+    background-color: rgba(0, 0, 0, 0.632);
     border-radius: 0px 0px 20px 20px;
     transition: 0.8s ease-in;
     height: 5vh;
@@ -382,11 +382,72 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    color: white;
 }
 .card-content-7 {
     width: 100%;
     height: 100%;
     background-image: url(https://cdn.laredoute.com/products/e/3/2/e32535bed91689f417c58d33e7cdd1c0.jpg?width=1200&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content-8{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.laredoute.com/products/e/4/a/e4a910fa933e88f108cc55d628e5e0ec.jpg?width=1200&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content-9{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.laredoute.com/products/2/9/2/292d3b2f08e6800a3f6a69af4b81b941.jpg?width=1200&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content-10{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.laredoute.com/products/4/b/8/4b8cda59e74ea49574bf6e46ea4d659b.jpg?width=1200&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content-11{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.laredoute.com/products/5/c/2/5c2d6d331280b5be67e67f074ff3ee9b.jpg?width=1200&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content-12{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.laredoute.com/products/9/c/6/9c68cf72ee9654dfb3f28f89931ecbca.jpg?width=1200&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -401,7 +462,6 @@ header {
 
 .card-7-content p {
     opacity: 0;
-    visibility: hidden;
     transition: 1s ease-in;
     color: white;
     margin-top: 5px;
@@ -410,11 +470,9 @@ header {
 }
 
 .card-7-content a {
-    width: 10vw;
-    height: 5vh;
     text-decoration: none;
     text-align: center;
-    color: brown;
+    color: rgb(227, 163, 163);
 }
 
 .card-content-7:hover {
@@ -426,7 +484,66 @@ header {
     }
 
     .card-7-content p {
-        visibility: visible;
+        opacity: 1;
+    }
+}
+.card-content-8:hover {
+    .card-7-content {
+        margin-top: 20vh;
+        height: 20vh;
+        background-color: black;
+        color: white;
+    }
+
+    .card-7-content p {
+        opacity: 1;
+    }
+}
+.card-content-9:hover {
+    .card-7-content {
+        margin-top: 20vh;
+        height: 20vh;
+        background-color: black;
+        color: white;
+    }
+
+    .card-7-content p {
+        opacity: 1;
+    }
+}
+.card-content-10:hover {
+    .card-7-content {
+        margin-top: 20vh;
+        height: 20vh;
+        background-color: black;
+        color: white;
+    }
+
+    .card-7-content p {
+        opacity: 1;
+    }
+}
+.card-content-11:hover {
+    .card-7-content {
+        margin-top: 20vh;
+        height: 20vh;
+        background-color: black;
+        color: white;
+    }
+
+    .card-7-content p {
+        opacity: 1;
+    }
+}
+.card-content-12:hover {
+    .card-7-content {
+        margin-top: 20vh;
+        height: 20vh;
+        background-color: black;
+        color: white;
+    }
+
+    .card-7-content p {
         opacity: 1;
     }
 }
